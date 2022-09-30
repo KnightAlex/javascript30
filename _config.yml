@@ -1,5 +1,3 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme
+theme: jekyll-theme-hacker
 title: Javascript30
 description: Alex Knight does the Wes Bos 30 days of Javascript challenge!
