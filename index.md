@@ -4,6 +4,14 @@ layout: default
 
 During October 2022 I decided to do the [Wes Bos Javascript30](https://javascript30.com/) challenge.
 
-## Day 1: JavaScript Drum Kit
+## Day 1: Drum Kit
 This lesson taught me how to listen for key press events, and trigger audio to play as well as adding and removing a class to the corresponding element.
 [Demo here](day1-drumkit)
+
+## Day 2: Clock
+Today I learned to get the current time and use maths and Javascript to set and rotate the clock hands in real time
+[Demo here](day2-clock)
+
+## Day 3: CSS variables and JS
+This lesson showed how to use and update CSS variables with Javascript
+[Demo here](day3-variables)
