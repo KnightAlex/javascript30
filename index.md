@@ -15,3 +15,10 @@ Today I learned to get the current time and use maths and Javascript to set and 
 ## Day 3: CSS variables and JS
 This lesson showed how to use and update CSS variables with Javascript
 [Demo here](day3-variables)
+
+## Day 4: Array cardio day 1
+Did lots of cool things with arrays like `filter()`, `map()`, `sort()` and `reduce()`;
+
+## Day 5: Flex gallery
+Today's exercise was all about using Flexbox and some event listeners to make a cool expanding gallery.
+[Demo here](day5-flexpanelgallery)
