@@ -17,7 +17,7 @@ This lesson showed how to use and update CSS variables with Javascript
 [Demo here](day3-variables)
 
 ## Day 4: Array cardio day 1
-Did lots of cool things with arrays like `filter()`, `map()`, `sort()` and `reduce()`;
+Did lots of cool things with arrays like `filter()`, `map()`, `sort()` and `reduce()`
 
 ## Day 5: Flex gallery
 Today's exercise was all about using Flexbox and some event listeners to make a cool expanding gallery.
