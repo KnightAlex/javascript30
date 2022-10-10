@@ -29,3 +29,7 @@ This lesson showed how to search a JSON array for words typed into a search box,
 
 ## Day 7: Array cardio day 2
 More array function learning: `some()`, `every()`, `find()`.
+
+## Day 8: Fun with HTML5 canvas drawing
+This demonstrates using mouse events to draw on a HTML5 canvas in a fun way
+[Demo here](day8-html5canvas)
