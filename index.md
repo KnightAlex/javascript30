@@ -26,3 +26,6 @@ Today's exercise was all about using Flexbox and some event listeners to make a 
 ## Day 6: Type Ahead
 This lesson showed how to search a JSON array for words typed into a search box, and then show the results in a list below. 
 [Demo here](day6-typeahead)
+
+## Day 7: Array cardio day 2
+More array function learning: `some()`, `every()`, `find()`.
