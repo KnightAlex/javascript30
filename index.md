@@ -22,3 +22,7 @@ Did lots of cool things with arrays like `filter()`, `map()`, `sort()` and `redu
 ## Day 5: Flex gallery
 Today's exercise was all about using Flexbox and some event listeners to make a cool expanding gallery.
 [Demo here](day5-flexpanelgallery)
+
+## Day 6: Type Ahead
+This lesson showed how to search a JSON array for words typed into a search box, and then show the results in a list below. 
+[Demo here](day6-typeahead)
