@@ -33,3 +33,7 @@ More array function learning: `some()`, `every()`, `find()`.
 ## Day 8: Fun with HTML5 canvas drawing
 This demonstrates using mouse events to draw on a HTML5 canvas in a fun way
 [Demo here](day8-html5canvas)
+
+## Day 9: Dev tools tricks
+Learnt lots of things about `console.log()` and similar methods
+[Demo here](day9-devtools) (view the console output!)
