@@ -37,3 +37,26 @@ This demonstrates using mouse events to draw on a HTML5 canvas in a fun way
 ## Day 9: Dev tools tricks
 Learnt lots of things about `console.log()` and similar methods
 [Demo here](day9-devtools) (view the console output!)
+
+## Day 10: Hold shift to check multiple checkboxes
+Looping through checkboxes to see if they are inbetween two that have been checked while holding shift
+[Demo here](day10-checkboxes)
+
+## Day 11: Custom HTML5 video player
+Fun to learn how to get video contols working so a fully customised player can be created
+[Demo here](day11-videoplayer)
+
+## Day 12: Key sequence detection
+Splicing presses into an array, converting to a string and comparing to a secret code to make unicorns appear.
+[Demo here](day12-keysequencedetection) - type 'unicorn' to see the result
+
+## Day 13: Slide in on scroll
+Looked at how to check where on the screen images are and slide them into view
+[Demo here](day13-slideinonscroll)
+
+## Day 14: Object and Arrays - reference vs copy
+Some handy stuff here with learning to copy an object or array without any changes being referenced in the original
+
+## Day 15: Local storage and event delegation
+Learned some really useful stuff here. Try the demo by adding items and clicking them, then refresh the page
+[Demo here](day15-localstorage)
