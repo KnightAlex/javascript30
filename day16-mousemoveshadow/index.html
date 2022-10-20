@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mouse Shadow</title>
+</head>
+
+<body>
+
+    <div class="hero">
+        <h1 contenteditable>🔥WOAH!</h1>
+    </div>
+
+    <style>
+        html {
+            color: black;
+            font-family: sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
+
+        h1 {
+            text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+            font-size: 100px;
+        }
+    </style>
+
+    <script>
+        const hero = document.querySelector('.hero');
+        const text = document.querySelector('h1');
+        const walk = 100;
+
+        function shadow(e) {
+            const { offsetWidth: width, offsetHeight: height } = hero; //ES6 destructing
+            //const width = hero.offsetWidth;
+            //const height = hero.offsetHeight;
+            let { offsetX: x, offsetY: y } = e;
+            // let { property: varname, property2: varname2} = take from var/e
+            if (this !== e.target) {
+                //if hover is over the h1, not just the main div
+                x = x + e.target.offsetLeft;//add pixels from left of h1 + left of div
+                y = y + e.target.offsetTop;//add pixels from top of h1 + top of div
+            }
+
+            const xWalk = Math.round((x / width * walk) - (walk / 2));//offset to be +50px or -50px
+            const yWalk = Math.round((y / height * walk) - (walk / 2));//offset to be +50px or -50px
+
+            text.style.textShadow = `
+                ${xWalk}px ${yWalk}px 0 rgba(255,0,255,0.7),
+                ${xWalk * -1}px ${yWalk}px 0 rgba(0,255,255,0.7),
+                ${yWalk}px ${yWalk * -1}px 0 rgba(0,255,0,0.7),
+                ${yWalk * -1}px ${xWalk}px 0 rgba(0,0,255,0.7)
+            `;
+        }
+
+        hero.addEventListener('mousemove', shadow);
+    </script>
+</body>
+
+</html>

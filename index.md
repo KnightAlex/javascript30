@@ -60,3 +60,11 @@ Some handy stuff here with learning to copy an object or array without any chang
 ## Day 15: Local storage and event delegation
 Learned some really useful stuff here. Try the demo by adding items and clicking them, then refresh the page
 [Demo here](day15-localstorage)
+
+## Day 16: Mouse move shadow
+Showing how to use the mouse position to add some dynamic CSS to some text
+[Demo here](day16-mousemoveshadow)
+
+## Day 17: Sorting band names
+This small script sorts band names alphabetically without the prefixes taken into account (An, The, A). Handy!
+[Demo here](day17-sortingnames)
