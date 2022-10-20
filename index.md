@@ -68,3 +68,6 @@ Showing how to use the mouse position to add some dynamic CSS to some text
 ## Day 17: Sorting band names
 This small script sorts band names alphabetically without the prefixes taken into account (An, The, A). Handy!
 [Demo here](day17-sortingnames)
+
+## Day 18: Adding up times
+A maths exercise in dealing with times and adding them up correctly
