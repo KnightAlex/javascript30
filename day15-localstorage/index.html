@@ -40,7 +40,7 @@
             <input type="text" name="item" placeholder="Item Name" required>
             <input type="submit" value="+ Add Item">
         </form>
-        <!-- <button class="clear" href="">Clear all</button> -->
+        <button class="clear" href="">Clear all</button>
     </div>
 
     <script>
@@ -87,9 +87,9 @@
 
         function clearAllPlates(e) {
             e.preventDefault;
-            itemsList.innerHTML = '<li>Loading Tapas...</li>';
-            localStorage.removeItem('items');
-            // to do: stop local storage being repopulated
+            itemsList.innerHTML = '<li>Loading Tapas...</li>';//set initial list item again
+            localStorage.removeItem('items');//remove items from local storage
+            items.length = 0;//clear the array of items
         }
 
         //these run on page load
