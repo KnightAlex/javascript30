@@ -40,12 +40,14 @@
             <input type="text" name="item" placeholder="Item Name" required>
             <input type="submit" value="+ Add Item">
         </form>
+        <!-- <button class="clear" href="">Clear all</button> -->
     </div>
 
     <script>
         // to do! add 3 x buttons at bottom: one to clear list, one to check all, one to uncheck all
         const addItems = document.querySelector('.add-items');
         const itemsList = document.querySelector('.plates');
+        const clearAll = document.querySelector('.clear');
         //try to get items from local storage, if none store empty array
         const items = JSON.parse(localStorage.getItem('items')) || [];
 
@@ -83,9 +85,17 @@
             populateList(items, itemsList);//visually update what's on page
         }
 
+        function clearAllPlates(e) {
+            e.preventDefault;
+            itemsList.innerHTML = '<li>Loading Tapas...</li>';
+            localStorage.removeItem('items');
+            // to do: stop local storage being repopulated
+        }
+
         //these run on page load
         addItems.addEventListener('submit', addItem);
         itemsList.addEventListener('click', toggleDone);
+        clearAll.addEventListener('click', clearAllPlates);
         populateList(items, itemsList);
 
     </script>
