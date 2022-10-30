@@ -75,3 +75,8 @@ A maths exercise in dealing with times and adding them up correctly
 ## Day 19: Webcam fun!
 Learned about messing with pixel values to create interesting webcam effects
 [Demo here](day19-webcam)
+
+## Day 20: [coming soon]
+
+## Day 21: Geolocation based speedometer and compass
+This gets the users speed and displays it on screen along with a compass showing direction
