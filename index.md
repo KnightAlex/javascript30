@@ -71,3 +71,7 @@ This small script sorts band names alphabetically without the prefixes taken int
 
 ## Day 18: Adding up times
 A maths exercise in dealing with times and adding them up correctly
+
+## Day 19: Webcam fun!
+Learned about messing with pixel values to create interesting webcam effects
+[Demo here](day19-webcam)
